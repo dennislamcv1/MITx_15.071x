@@ -1,9 +1,10 @@
-
-
-https://courses.edx.org/courses/course-v1:MITx+15.071x_2a+2T2015/
+List of old versions:
 
 
 
+https://courses.edx.org/courses/course-v1:MITx+15.071x_2a+2T2015/home
+https://learning.edx.org/course/course-v1:MITx+15.071x_3+1T2016/home
+https://learning.edx.org/course/course-v1:MITx+15.071x+2T2017/home
 https://learning.edx.org/course/course-v1:MITx+15.071x+3T2018/home
 https://learning.edx.org/course/course-v1:MITx+15.071x+1T2019/home
 https://learning.edx.org/course/course-v1:MITx+15.071x+3T2019/home
