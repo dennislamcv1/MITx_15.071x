@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(readr)
+library(tidyverse)
+WHO <- read_csv("WHO.csv")
+View(WHO)
+```
+```{r}
+str(WHO)
+```
+```{r}
+mean_over60 <- mean(WHO$Over60, na.rm = TRUE)
+print(mean_over60)
+```
+
+```{r}
+# Assuming WHO is the name of your dataset
+# Calculate percentage over 60 for each country
+WHO <- mutate(WHO, PercentOver60 = (Over60 / Population) * 100)
+
+# Find the country with the smallest percentage over 60
+country_smallest_percent_over_60 <- WHO[which.min(WHO$PercentOver60), "Country"]
+country_smallest_percent_over_60
+```
+

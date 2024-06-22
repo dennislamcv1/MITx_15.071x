@@ -1,0 +1,20 @@
+---
+title: "Assignment 1"
+output: html_notebook
+---
+# Internet Privacy Poll (OPTIONAL)
+
+```{r}
+library(readr)
+library(tidyverse)
+```
+
+```{r}
+# Load the dataset
+poll <- read.csv("AnonymityPoll.csv")
+
+# Summarize the dataset
+summary(poll)
+str(poll)
+```
+
